@@ -1,0 +1,32 @@
+{
+    "version": "0.4.0",
+    "description": "Bash for coding agents on native Windows: a drop-in bash.exe with its own tools, and an MCP server",
+    "homepage": "https://github.com/lemonadesaltbagel/sill",
+    "license": "Unknown",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lemonadesaltbagel/sill/releases/download/v0.4.0/sill-windows-x64.zip",
+            "hash": "e234227389aa3fd2b80de8b21336fb9e6914ecc806ca66a642ffc996377a87af",
+            "extract_dir": "sill"
+        }
+    },
+    "bin": "sill.exe",
+    "notes": [
+        "sill's bash.exe (for harnesses): $env:USERPROFILE\\scoop\\apps\\sill\\current\\bash.exe",
+        "Claude Code: set CLAUDE_CODE_GIT_BASH_PATH to that path.",
+        "MCP clients (Codex CLI, Gemini CLI, Claude Desktop): command = that path, args = --mcp"
+    ],
+    "checkver": {
+        "github": "https://github.com/lemonadesaltbagel/sill"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lemonadesaltbagel/sill/releases/download/v$version/sill-windows-x64.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

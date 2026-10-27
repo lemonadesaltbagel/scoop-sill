@@ -1,12 +1,12 @@
 {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "description": "Bash for coding agents on native Windows: a drop-in bash.exe with its own tools, and an MCP server",
     "homepage": "https://github.com/lemonadesaltbagel/sill",
     "license": "Unknown",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lemonadesaltbagel/sill/releases/download/v0.4.0/sill-windows-x64.zip",
-            "hash": "e234227389aa3fd2b80de8b21336fb9e6914ecc806ca66a642ffc996377a87af",
+            "url": "https://github.com/lemonadesaltbagel/sill/releases/download/v0.5.0/sill-windows-x64.zip",
+            "hash": "96ae1cfcdac0b3c91d1e0de7e321a8a55f8ccd61cd2c607ffe9a84c05cc3c658",
             "extract_dir": "sill"
         }
     },

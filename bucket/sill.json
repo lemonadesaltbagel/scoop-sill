@@ -10,7 +10,12 @@
             "extract_dir": "sill"
         }
     },
-    "bin": "sill.exe",
+    "bin": [
+        [
+            "bash.exe",
+            "sill"
+        ]
+    ],
     "notes": [
         "sill's bash.exe (for harnesses): $env:USERPROFILE\\scoop\\apps\\sill\\current\\bash.exe",
         "Claude Code: set CLAUDE_CODE_GIT_BASH_PATH to that path.",
